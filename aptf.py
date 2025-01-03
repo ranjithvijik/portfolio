@@ -7,7 +7,7 @@ from fredapi import Fred
 import time
 
 # Initialize FRED API (you need an API key)
-fred_api_key = '724ad7fc925d199d9dd1a64ff5bcd71a'  # Replace with your API Key
+fred_api_key = ''  # Replace with your API Key
 fred = Fred(api_key=fred_api_key)
 
 # DJIA ticker symbols (last updated as of 2023)
